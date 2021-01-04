@@ -76,7 +76,7 @@ class exp(commands.Cog):
                     if stats["id"] == x["id"]:
                         break
                 
-                embed = discord.Embed(title = "{}'s level stats".format(ctx.author.name), color=Color.green)
+                embed = discord.Embed(title = "{}'s level stats".format(ctx.author.name), color=discord.Color(7CFC00))
                 embed.add_field(name = "Name" , value = ctx.author.mention, inline = True)
                 embed.add_field(name = "Xp" , value=f"{xp}/{int(200*((0.5)*lvl))}", inline = True)
                 embed.add_field(name = "Rank" ,value=f"{rank}/{ctx.guild.member_count}", inline = True)
