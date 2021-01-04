@@ -8,7 +8,7 @@ class ready(commands.Cog):
         
     @commands.Cog.listener()
     async def on_ready(self):
-        await client.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name="Your Xp"))
+        await self.client.change_presence(status=discord.Status.idle, activity=discord.Activity(type=discord.ActivityType.watching, name="Your Xp"))
         print("Status Loaded")
         
         
