@@ -17,4 +17,9 @@ for i in range(len(cogs)):
     cogs[i].setup(client)
 
 
-client.run(token.txt)
+def run(self):
+    with open("token.txt", "r", encoding="utf-8") as tf:
+	self.TOKEN = tf.read()
+
+	print("running bot...")
+	super().run(self.TOKEN, reconnect=True)
