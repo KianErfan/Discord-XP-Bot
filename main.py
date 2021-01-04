@@ -5,6 +5,7 @@ from discord.ext import commands
 from pymongo import MongoClient
 
 import exp
+import ready
 
 token = open("token.txt","r").read()
 
