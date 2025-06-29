@@ -1,4 +1,4 @@
-# KianErfan XP Bot 🤖
+# Discord XP Bot 🤖
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](#license)
 [![GitHub Stars](https://img.shields.io/github/stars/KianErfan/KianErfan-XP-Bot?style=social)](https://github.com/KianErfan/KianErfan-XP-Bot/stargazers)
