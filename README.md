@@ -2,7 +2,6 @@
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](#license)
 [![GitHub Stars](https://img.shields.io/github/stars/KianErfan/KianErfan-XP-Bot?style=social)](https://github.com/KianErfan/KianErfan-XP-Bot/stargazers)
-[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](#contributing)
 
 A powerful Discord XP bot designed to enhance community engagement through leveling systems and rewards. This bot tracks user activity and rewards participation with customizable XP points and role assignments.
 
@@ -32,10 +31,10 @@ Modify config.json for:
 
  - Role rewards at specific levels
 
- = Channel-specific XP rules
+ - Channel-specific XP rules
 
  - Level-up message customization
 
 ### License
-Distributed under the MIT License. See LICENSE for more information.
+Distributed under the MIT License. See `LICENSE` for more information.
 
