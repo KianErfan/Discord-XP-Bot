@@ -8,7 +8,7 @@ talk_channel = [767826793415180339, 705194793520857138, 794332497151524964, 7943
 level = ["Level 5+" , "Level 10+", "Level 15+"]
 levelnum = [5,10,15]
 
-cluster = MongoClient("mongodb+srv://KianErfan:36272002kian@discordbot.jr8ty.mongodb.net/DiscordBot?retryWrites=true&w=majority")
+cluster = MongoClient("mongodb+srv://KianErfan:Password@discordbot.jr8ty.mongodb.net/DiscordBot?retryWrites=true&w=majority")
 
 levelling = cluster["XP"]["Levels"]
 
