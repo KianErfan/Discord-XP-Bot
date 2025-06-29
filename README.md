@@ -25,7 +25,7 @@ A powerful Discord XP bot designed to enhance community engagement through level
 ```
 
 ### Configuration ⚙️
-Modify config.json for:
+Modify `exp.py` for:
 
  - XP rates per message/activity
 
