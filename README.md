@@ -1,50 +1,41 @@
-About The Project
+# KianErfan XP Bot 🤖
 
-The KianErfan XP Bot is a Discord bot created to bring a level-up system to your server. It monitors member participation in voice and text channels, rewarding them with experience points (XP). This encourages user engagement and helps build a more active community.
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](#license)
+[![GitHub Stars](https://img.shields.io/github/stars/KianErfan/KianErfan-XP-Bot?style=social)](https://github.com/KianErfan/KianErfan-XP-Bot/stargazers)
+[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](#contributing)
 
-Built With
-This project was built with the following technologies:
+A powerful Discord XP bot designed to enhance community engagement through leveling systems and rewards. This bot tracks user activity and rewards participation with customizable XP points and role assignments.
 
-[![Python][Python.org]][Python-url]
+## Features ✨
+- Real-time activity tracking and XP assignment
+- Customizable level-up rewards and role assignments
+- Leaderboard system with seasonal resets
+- Multi-server support with individual configurations
 
-[![Discord.py][Discord.py]][Discord-py-url]
+## Getting Started 🚀
 
-Getting Started
-To get a local copy up and running, follow these simple steps.
+### Prerequisites
+[![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)](https://www.python.org/downloads/)
+[![Discord Developer Account](https://img.shields.io/badge/Discord%20Developer%20Portal-%235865F2.svg?&logo=discord&logoColor=white)](https://discord.com/developers/applications)
+[![MongoDB database](https://img.shields.io/badge/-MongoDB-13aa52?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/atlas/database)
 
-Prerequisites
-You will need to have Python and pip installed on your system.
+### Usage 💻
+``` bash
+!rank - Check your current level and XP
+!leaderboard - Show server top 10 users
+```
 
-python
+### Configuration ⚙️
+Modify config.json for:
 
-python --version
+ - XP rates per message/activity
 
-pip
+ - Role rewards at specific levels
 
-pip --version
+ = Channel-specific XP rules
 
-Installation
-Clone the repo
+ - Level-up message customization
 
-git clone [https://github.com/KianErfan/KianErfan-XP-Bot.git](https://github.com/KianErfan/KianErfan-XP-Bot.git)
+### License
+Distributed under the MIT License. See LICENSE for more information.
 
-Install dependencies
-Navigate to the project directory and run:
-
-pip install -r requirements.txt
-
-Create a Discord Bot Application
-
-Go to the Discord Developer Portal.
-
-Click "New Application".
-
-Give your application a name and click "Create".
-
-Go to the "Bot" tab and click "Add Bot".
-
-Under the bot's username, you'll find the token. Keep this secret!
-
-Enable the "Server Members Intent" and "Message Content Intent" under "Privileged Gateway Intents".
-
-Configure the Bot
